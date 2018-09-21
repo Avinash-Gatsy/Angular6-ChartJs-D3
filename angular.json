@@ -73,7 +73,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "A6ChartJs:build"
+            "browserTarget": "A6ChartJs:build",
+            "proxyConfig": "proxy.conf.json"
           },
           "configurations": {
             "production": {
