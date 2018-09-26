@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
       }
 
       return [
-        {title: 'd3 bubble chart', cols: 1, rows: 1},
+        {title: 'd3 bubble chart', cols: 2, rows: 2},
         {title: 'd3 bar chart', cols: 1, rows: 1},
         {title: 'pie chart', cols: 1, rows: 1},
         {title: 'bar chart', cols: 1, rows: 1},
